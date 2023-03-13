@@ -43,11 +43,18 @@
 </ul>
 <p>数据指标的管理，标签的管理，有时独立出来自成一个体系，叫做标签管理系统。</p>
 <ul>
-<li>数仓体系建设</li>
-<li>标签数据开发</li>
-<li>画像应用</li>
+<li><p>数仓体系建设</p>
+</li>
+<li><p>标签数据开发</p>
+</li>
+<li><p>画像应用</p>
+</li>
 </ul>
-<p><img src="/2023/03/13/%E7%94%A8%E6%88%B7%E7%94%BB%E5%83%8F/%E7%94%A8%E6%88%B7%E7%94%BB%E5%83%8F%E7%BB%BC%E8%BF%B0/%E7%94%A8%E6%88%B7%E7%94%BB%E5%83%8F%E5%BA%94%E7%94%A8.png" alt="image.png"><br>_本节参考: _<br><a href="https://max.book118.com/html/2022/0314/5043001021004201.shtm"><em>用户画像：方法论与工程化解决方案-第1章 用户画像基础 | 书籍</em></a><br><a href="https://zhuanlan.zhihu.com/p/143777822"><em>客户画像一：客户画像基础 | 知乎</em></a><br><a href="https://www.slidestalk.com/SensorsData/54106"><em>标签体系应用及设计思路-神策数据 | 示说</em></a></p>
+<p><img src="/2023/03/13/%E7%94%A8%E6%88%B7%E7%94%BB%E5%83%8F/%E7%94%A8%E6%88%B7%E7%94%BB%E5%83%8F%E7%BB%BC%E8%BF%B0/%E7%94%A8%E6%88%B7%E7%94%BB%E5%83%8F%E5%BA%94%E7%94%A8.png" alt="image.png"></p>
+<span id="more"></span>
+
+
+<p>本节参考:<br><a href="https://max.book118.com/html/2022/0314/5043001021004201.shtm"><em>用户画像：方法论与工程化解决方案-第1章 用户画像基础 | 书籍</em></a><br><a href="https://zhuanlan.zhihu.com/p/143777822"><em>客户画像一：客户画像基础 | 知乎</em></a><br><a href="https://www.slidestalk.com/SensorsData/54106"><em>标签体系应用及设计思路-神策数据 | 示说</em></a></p>
 <h2 id="2-标签管理系统"><a href="#2-标签管理系统" class="headerlink" title="2 标签管理系统"></a>2 标签管理系统</h2><h3 id="2-1-标签体系"><a href="#2-1-标签体系" class="headerlink" title="2.1 标签体系"></a>2.1 标签体系</h3><img src="/2023/03/13/%E7%94%A8%E6%88%B7%E7%94%BB%E5%83%8F/%E7%94%A8%E6%88%B7%E7%94%BB%E5%83%8F%E7%BB%BC%E8%BF%B0/标签体系.png" alt="image.png" style="zoom:120%;">
 图片源自：[_客户画像一：客户画像基础 | 知乎_](https://zhuanlan.zhihu.com/p/143777822)
 标签组织通常通过两个维度进行：

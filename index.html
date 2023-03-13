@@ -221,7 +221,7 @@
               <span class="post-meta-item-text">发表于</span>
               
 
-              <time title="创建时间：2023-03-13 14:48:22 / 修改时间：15:01:35" itemprop="dateCreated datePublished" datetime="2023-03-13T14:48:22+08:00">2023-03-13</time>
+              <time title="创建时间：2023-03-13 14:48:22 / 修改时间：15:03:29" itemprop="dateCreated datePublished" datetime="2023-03-13T14:48:22+08:00">2023-03-13</time>
             </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -264,7 +264,7 @@
                 <i class="fa fa-clock-o"></i>
               </span>
                 <span class="post-meta-item-text">阅读时长 &asymp;</span>
-              <span>11 分钟</span>
+              <span>12 分钟</span>
             </span>
 
         </div>
@@ -287,112 +287,22 @@
 </ul>
 <p>数据指标的管理，标签的管理，有时独立出来自成一个体系，叫做标签管理系统。</p>
 <ul>
-<li>数仓体系建设</li>
-<li>标签数据开发</li>
-<li>画像应用</li>
+<li><p>数仓体系建设</p>
+</li>
+<li><p>标签数据开发</p>
+</li>
+<li><p>画像应用</p>
+</li>
 </ul>
-<p><img src="/2023/03/13/%E7%94%A8%E6%88%B7%E7%94%BB%E5%83%8F/%E7%94%A8%E6%88%B7%E7%94%BB%E5%83%8F%E7%BB%BC%E8%BF%B0/%E7%94%A8%E6%88%B7%E7%94%BB%E5%83%8F%E5%BA%94%E7%94%A8.png" alt="image.png"><br>_本节参考: _<br><a target="_blank" rel="noopener" href="https://max.book118.com/html/2022/0314/5043001021004201.shtm"><em>用户画像：方法论与工程化解决方案-第1章 用户画像基础 | 书籍</em></a><br><a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/143777822"><em>客户画像一：客户画像基础 | 知乎</em></a><br><a target="_blank" rel="noopener" href="https://www.slidestalk.com/SensorsData/54106"><em>标签体系应用及设计思路-神策数据 | 示说</em></a></p>
-<h2 id="2-标签管理系统"><a href="#2-标签管理系统" class="headerlink" title="2 标签管理系统"></a>2 标签管理系统</h2><h3 id="2-1-标签体系"><a href="#2-1-标签体系" class="headerlink" title="2.1 标签体系"></a>2.1 标签体系</h3><img src="/2023/03/13/%E7%94%A8%E6%88%B7%E7%94%BB%E5%83%8F/%E7%94%A8%E6%88%B7%E7%94%BB%E5%83%8F%E7%BB%BC%E8%BF%B0/标签体系.png" alt="image.png" style="zoom:120%;">
-图片源自：[_客户画像一：客户画像基础 | 知乎_](https://zhuanlan.zhihu.com/p/143777822)
-标签组织通常通过两个维度进行：
-
-<ul>
-<li>标签类别——标签应用深度</li>
-</ul>
-<p>将标签按照类别归类，事实标签（对原本数据的一种转述或统计，又叫统计类标签）、规则标签（基于原有数据的加工，并利用其中一个或多个字段按照规则生成的标签）、算法标签（算法模型的聚类、预测任务等生成标签）。</p>
-<ul>
-<li>标签类目——标签业务广度</li>
-</ul>
-<p>叫做标签类目是为了区别标签类别。标签类目是按照业务数据域将标签组织起来，一般采用多级树状的形式。<br>标签的组织形式如下图：<br><img src="/2023/03/13/%E7%94%A8%E6%88%B7%E7%94%BB%E5%83%8F/%E7%94%A8%E6%88%B7%E7%94%BB%E5%83%8F%E7%BB%BC%E8%BF%B0/%E6%A0%87%E7%AD%BE%E7%B1%BB%E7%9B%AE%E5%B1%82%E6%AC%A1%E5%88%92%E5%88%86.webp" alt="u=883053682,3715570453&amp;fm=253&amp;app=138&amp;f=JPEG&amp;fmt=auto&amp;q=75.webp"><br>图片源自: <a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/368082724">券商数据分析那些事 | 知乎</a></p>
-<h3 id="2-2-标签利用"><a href="#2-2-标签利用" class="headerlink" title="2.2 标签利用"></a>2.2 标签利用</h3><p>用户画像有一些数据超市的味道，打破业务领域的数据孤岛，让标签能够共同利用是其关键。因此做好呈现和描述，供各端口查找、筛选标签，方便标签的利用，是有很大意义的。</p>
-<ul>
-<li>标签展示前台</li>
-</ul>
-<p>1）提供标签的查找和展示功能，能够根据数据源、应用等查找先关标签，能够根据标签的上下游关系查找相关标签，能够根据标签类目体系查找标签；<br>2）提供标签之间的关联关系展示、标签使用情况展示等等<br>3）有时候需要ui界面；</p>
-<ul>
-<li>标签权限管理</li>
-<li>标签打标任务和利用任务的监控</li>
-</ul>
-<h2 id="3-数仓建设"><a href="#3-数仓建设" class="headerlink" title="3 数仓建设"></a>3 数仓建设</h2><p>本节参考：<br><a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/148633530">客户画像四：客户画像数据层之（数据仓库第三篇：数仓设计篇（一））</a><br><a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/148635275">客户画像五：客户画像数据层之（数据仓库第四篇：数仓设计篇（二））</a><br><a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/148836016">客户画像六：客户画像数据层之（数据仓库第五篇：数仓设计篇（三））</a><br><a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/148836759">客户画像七：客户画像数据层之（数据仓库第五篇：数仓设计篇（四））</a></p>
-<h3 id="3-1-设计原则"><a href="#3-1-设计原则" class="headerlink" title="3.1 设计原则"></a>3.1 设计原则</h3><ul>
-<li>统一的数据视图</li>
-</ul>
-<p>建立一个统一的画像数仓，建立用户的唯一识别id，汇集完整的数据，并形成统一的规范。<br>1）建立客户唯一的识别id，汇总整合客户的各类信息；<br>2）统一的数据解释，对同一种业务含义的数据项，采用统一的命名和解释；<br>3）良好的数据组织，通过合理的主题划分、明确的实体间关系，方便用户找到对应的数据；<br>4）清晰的数据流向；</p>
-<ul>
-<li>可用性</li>
-</ul>
-<p>通过多种方式保障画像数仓的可用性：<br>1）适当增加冗余，以方便应用；<br>2）必要信息的公共加工，对常用的数据进行统一加工，如客户数计算、收款计算，使得所有机构、产品等维度可以统一算法，达到一次加工计算，全企业共用；<br>3）数据分层，按照数据处理流程将数仓划分为多个层次，如ods、dwd、dws、ads等；<br>4）数据质量监控：数据字典管理、脏数据管理、重复数据监控。</p>
-<ul>
-<li>灵活性</li>
-</ul>
-<p>数据模型会随着需求的变化而不断增加、变更。数据指标包括：汇总指标、明细指标等。数仓结构要满足指标灵活增加的需求，不会随着指标在增加而变更数据模型。</p>
-<ul>
-<li>可扩展</li>
-</ul>
-<p>能够增加源数据，能够接入应用系统。</p>
-<ul>
-<li>高效性</li>
-</ul>
-<p>1）数据查询要求执行效率，有的应用要求秒级查询，有的要求分钟级查询；<br>2）数据加工要求执行效率，能够高效的完成标签开发、ETL等任务。</p>
-<ul>
-<li>实用性</li>
-</ul>
-<p>权衡实施的成本和数据实用性、指标使用频率。对业务需求中的重点指标进行重点加工。</p>
-<ul>
-<li>存储空间合理性</li>
-</ul>
-<p>合理设计，不要过多占用存储空间。</p>
-<h3 id="3-2-数据分层"><a href="#3-2-数据分层" class="headerlink" title="3.2 数据分层"></a>3.2 数据分层</h3><p>企业数仓的分层与一般数仓的分层设计相同，一般都是基于主流的维度模型进行设计。</p>
-<ul>
-<li>ODS层（操作数据层）</li>
-</ul>
-<p>存储原始数据，仅仅简单的汇总各路数据，几乎不涉及数据处理，主要是数据同步，非结构化数据结构化数据处理，有时涉及到去重和清洗，但需要保留历史数据。</p>
-<ul>
-<li>DWD层（明细数据层）</li>
-</ul>
-<p>是原始数据到应用之间的中间层。对于统一各业务数据有重要意义：<br>1）保留业务过程中最明细粒度的事实；<br>2）将维度退化到事实表中，提高易用性；</p>
-<blockquote>
-<p>在整个仓库设计中，存有一层保留到业务过程的最明细粒度的事实至关重要，这个是模型扩展的基础，DWD就是拿来干这个事的。例如：下订单为一个业务过程，对应会有一个订单事实表，将这个订单对应的各种（who、when、how much等）属性的明细id或属性放入事实表，指标设置比如有订单数、订单金额。订单数和订单金额基本为单个明细订单流水号对应值，1和具体订单金额。</p>
-</blockquote>
-<ul>
-<li>DWS层（汇总数据层）</li>
-</ul>
-<p>也是原始数据到应用之间的中间层。主要是对DWD层数据进行进一步的加工：<br>1）公共加工，加强指标复用；<br>2）加强指标的维度退化，提高易用性；</p>
-<ul>
-<li>ADS层（应用数据层）</li>
-</ul>
-<p>从ODS和CDM层获取数据并进行加工，主要作用是：<br>1）数据的个性化加工；<br>2）应用的数据组装；<br>上面的DWD和DWS有时又合并在一起，称为CDM层（公共维度模型层）</p>
-<h2 id="4-标签开发方法论"><a href="#4-标签开发方法论" class="headerlink" title="4 标签开发方法论"></a>4 标签开发方法论</h2><p>标签开发属于分散性的任务。通常每个处理各自领域内的标签开发。按照开发数据处理方式标签开发可以分为离线标签开发和实时标签开发，按照标签类型可以分为事实标签开发、规则标签开发和算法标签开发。<br>下面重点介绍标签开发和应用中的方法论。</p>
-<h3 id="4-1-用户群划分"><a href="#4-1-用户群划分" class="headerlink" title="4.1 用户群划分"></a>4.1 用户群划分</h3><p>用户群划分中的RFM方法：<br>R（Recency）F（Frequency）M（Money）是一种用户群划分方法，即按照用户最近一次消费时间、用户消费频率和消费金额对用户群进行划分。属于规则标签的一种。<br><img src="/2023/03/13/%E7%94%A8%E6%88%B7%E7%94%BB%E5%83%8F/%E7%94%A8%E6%88%B7%E7%94%BB%E5%83%8F%E7%BB%BC%E8%BF%B0/%E7%94%A8%E6%88%B7%E7%94%BB%E5%83%8FRFM%E7%94%A8%E6%88%B7%E7%BE%A4%E5%88%92%E5%88%86.png" alt="image.png"><br>上图源自<a target="_blank" rel="noopener" href="https://max.book118.com/html/2022/0314/5043001021004201.shtm"><em>用户画像：方法论与工程化解决方案-第4章 标签数据开发 | 书籍</em></a></p>
-<h3 id="4-2-用户活跃度"><a href="#4-2-用户活跃度" class="headerlink" title="4.2 用户活跃度"></a>4.2 用户活跃度</h3><p>用户活跃度标签主要是界定用户活跃度周期（高活跃、中活跃、低活跃、流失）的访问间隔时间拐点，界定这些时间拐点的主要方法包括：<br>1）根据用户回访率的下降曲线确定拐点<br><img src="/2023/03/13/%E7%94%A8%E6%88%B7%E7%94%BB%E5%83%8F/%E7%94%A8%E6%88%B7%E7%94%BB%E5%83%8F%E7%BB%BC%E8%BF%B0/%E7%94%A8%E6%88%B7%E7%BE%A4%E6%B4%BB%E8%B7%83%E5%BA%A6%E7%95%8C%E5%AE%9A.png" alt="image.png"><br>2）根据最近两次访问时间间隔确定拐点<br><img src="/2023/03/13/%E7%94%A8%E6%88%B7%E7%94%BB%E5%83%8F/%E7%94%A8%E6%88%B7%E7%94%BB%E5%83%8F%E7%BB%BC%E8%BF%B0/%E7%94%A8%E6%88%B7%E6%B4%BB%E8%B7%83%E5%BA%A6%E7%95%8C%E5%AE%9A2.png" alt="image.png"></p>
-<ul>
-<li>用户兴趣加权</li>
-</ul>
-<p>用户的点赞、收藏、加入购物车、购买、评价等行为按照商品的类别进行统计可以得到用户的兴趣标签。用户兴趣标签涉及到各类行为的加权。下面是权重计算方式：<br>1）TF-IDF加权，可以综合标签值出现的稀有程度以及本身的频次计算一个得分；<br>2）时间衰减，注意不同用户行为随时间衰减程度是不同的，有的甚至可能是不会衰减的；<br>3）一个常用的公式如下：<br>用户权重 &#x3D; 行为类型权重 * 时间衰减 * 用户行为次数权重 * 标签TF-IDF权重</p>
-<h3 id="4-3-标签本身的分析"><a href="#4-3-标签本身的分析" class="headerlink" title="4.3 标签本身的分析"></a>4.3 标签本身的分析</h3><p>1）可以结合标签的使用情况，统计每组、每个标签的使用频率，进而计算出标签的贡献情况；<br>2）可以结合标签数据的情况，统计分析标签数目、占比等等，进而分析标签的覆盖情况；<br>3）可以结合频繁项集、共现矩阵等分析标签之间的共现关系；<br>更多标签开发技巧可以参考实际案例：<br><a target="_blank" rel="noopener" href="https://github.com/feidapeng/2016CCF_StateGrid_UserProfile">https://github.com/feidapeng/2016CCF_StateGrid_UserProfile</a><br><a target="_blank" rel="noopener" href="https://github.com/hengchao0248/ccf2016_sougou">https://github.com/hengchao0248/ccf2016_sougou</a></p>
-<h3 id="4-4-标签体系分析"><a href="#4-4-标签体系分析" class="headerlink" title="4.4 标签体系分析"></a>4.4 标签体系分析</h3><p>下面罗列一些标签体系，需要按应用场景具体问题具体分析。</p>
-<h3 id="4-2-1-C端用户画像"><a href="#4-2-1-C端用户画像" class="headerlink" title="4.2.1 C端用户画像"></a>4.2.1 C端用户画像</h3><p>待更新</p>
-<h3 id="4-2-2-B端用户画像"><a href="#4-2-2-B端用户画像" class="headerlink" title="4.2.2 B端用户画像"></a>4.2.2 B端用户画像</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br></pre></td><td class="code"><pre><span class="line">B端用户画像发散</span><br><span class="line">	企业用户属性</span><br><span class="line">		行业属性</span><br><span class="line">			行业前景标签</span><br><span class="line">			行业人才供需标签</span><br><span class="line">		企业属性</span><br><span class="line">			企业发展阶段标签</span><br><span class="line">			企业规模标签</span><br><span class="line">			企业福利重视度标</span><br><span class="line">	决策链角色属性</span><br><span class="line">		决策者属性</span><br><span class="line">			决策者角色标签</span><br><span class="line">			决策者角色标签</span><br><span class="line">			决策者角色标签</span><br><span class="line">		使用者属性</span><br><span class="line">			使用者角色标签</span><br><span class="line">			使用者角色标签</span><br><span class="line">		影响者属性</span><br><span class="line">			影响者角色标签</span><br><span class="line">			影响者角色标签</span><br><span class="line">	行为属性</span><br><span class="line">		企业采购属性</span><br><span class="line">			采购类目偏好标签</span><br><span class="line">			采购品牌偏好标签</span><br><span class="line">			支付方式标签</span><br><span class="line">	商业属性</span><br><span class="line">		企业价值属性</span><br><span class="line">			企业价值等级标签</span><br><span class="line">			采购单价标签</span><br><span class="line">			采购频率标签</span><br><span class="line">			售后频率标签</span><br><span class="line">			产品使用评级标签</span><br><span class="line">			忠诚度标签</span><br><span class="line">			营销活动受理度标签</span><br><span class="line">	风险属性</span><br><span class="line">		企业用户风险属性</span><br><span class="line">			授信等级标签</span><br><span class="line">			信用风险等级标签</span><br><span class="line">			结算能力标签</span><br><span class="line">			违约风险标签</span><br><span class="line">	生命周期属性</span><br><span class="line">		企业用户生命周期属性</span><br><span class="line">			新客户标签</span><br><span class="line">			熟客期标签</span><br><span class="line">			衰退期标签</span><br><span class="line">			流失期标签</span><br></pre></td></tr></table></figure>
-
-<p><img src="/2023/03/13/%E7%94%A8%E6%88%B7%E7%94%BB%E5%83%8F/%E7%94%A8%E6%88%B7%E7%94%BB%E5%83%8F%E7%BB%BC%E8%BF%B0/B%E7%AB%AF%E7%94%A8%E6%88%B7%E7%94%BB%E5%83%8F%E5%8F%91%E6%95%A3.png"></p>
-<h2 id="5-产品分析"><a href="#5-产品分析" class="headerlink" title="5 产品分析"></a>5 产品分析</h2><ul>
-<li><a target="_blank" rel="noopener" href="https://www.sensorsdata.cn/product/userTag.html">神策数据-用户画像</a></li>
-</ul>
-<p>定位：提供数字化解决方案；<br>通用性强，场景多</p>
-<ul>
-<li><a target="_blank" rel="noopener" href="https://www.growingio.com/about">growing io</a></li>
-</ul>
-<p>定位：以数据智能分析为核心，打造智能营销闭环<br>属于分析和增长平台的一个子功能，以增长分析为主。<a target="_blank" rel="noopener" href="https://docs.growingio.com/op/product-manual/uesr-analysis/teng-xun-hua-xiang">growing io beta版文档</a></p>
-<ul>
-<li><a target="_blank" rel="noopener" href="https://dmp.taobao.com/">达摩盘 | 阿里妈妈</a></li>
-</ul>
-<p>定位：商家的营销分析平台<br>电商场景，丰富的标签支持，多年沉淀经验<br>其他还有很多，林林总总，这里不进行专门的竞品分析，具体参考：</p>
-<ul>
-<li><a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/517390728">用户画像竞品分析-深入剖析阿里、字节、神策等产品</a></li>
-<li><a target="_blank" rel="noopener" href="https://baijiahao.baidu.com/s?id=1594141083999253585&wfr=spider&for=pc">史上最全用户画像分析，附带案例讲解</a></li>
-</ul>
-<h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><p><a target="_blank" rel="noopener" href="https://www.slidestalk.com/SensorsData/54106">标签体系应用及设计思路-神策数据 | 示说</a><br><a target="_blank" rel="noopener" href="https://www.codenong.com/cs109542512/">用户画像（一）数仓与表结构的基本构建 | 实践</a><br><a target="_blank" rel="noopener" href="https://www.jianshu.com/p/b875b1d34a20">画像库数据存储设计</a><br><a target="_blank" rel="noopener" href="https://blog.csdn.net/u013836748/article/details/121844955">用StarRocks玩转用户画像-5-DMP精准营销</a><br><a target="_blank" rel="noopener" href="https://blog.51cto.com/u_15105906/5901878">用户画像 | 标签数据存储之Hive真实应用</a><br><a target="_blank" rel="noopener" href="https://blog.csdn.net/a934079371/article/details/125795815">基于Hive数据仓库的标签画像实战！</a><br><a target="_blank" rel="noopener" href="https://blog.51cto.com/u_15105906/5623751">用户画像 | 标签数据存储之Elasticsearch真实应用 </a></p>
-
+<p><img src="/2023/03/13/%E7%94%A8%E6%88%B7%E7%94%BB%E5%83%8F/%E7%94%A8%E6%88%B7%E7%94%BB%E5%83%8F%E7%BB%BC%E8%BF%B0/%E7%94%A8%E6%88%B7%E7%94%BB%E5%83%8F%E5%BA%94%E7%94%A8.png" alt="image.png"></p>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2023/03/13/%E7%94%A8%E6%88%B7%E7%94%BB%E5%83%8F/%E7%94%A8%E6%88%B7%E7%94%BB%E5%83%8F%E7%BB%BC%E8%BF%B0/#more" rel="contents">
+                更多... &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
       
     </div>
 
